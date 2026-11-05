@@ -212,7 +212,7 @@ export function createGame(opts) {
       <a class="k-home" href="/">← あそび百貨</a>
       <div class="k-title-main">
         ${meta.no ? `<div class="k-no">No.${String(meta.no).padStart(3, '0')}</div>` : ''}
-        <h1 class="k-logo">${esc(meta.title)}</h1>
+        <h1 class="k-logo" style="font-size:clamp(32px, min(13vw, ${Math.floor(88 / Math.max(1, [...meta.title].length))}vw), 92px)">${esc(meta.title)}</h1>
         <p class="k-tagline">${esc(meta.tagline || '')}</p>
       </div>
       ${meta.icon ? `<div class="k-icon">${esc(meta.icon)}</div>` : ''}

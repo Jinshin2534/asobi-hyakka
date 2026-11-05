@@ -1,0 +1,17 @@
+{
+  "no": 27,
+  "slug": "haisen-tsunagi",
+  "title": "配線つなぎ",
+  "tagline": "タイルを回して、電球ぜんぶに電気を通せ。",
+  "genre": "パズル",
+  "icon": "💡",
+  "howto": [
+    "タイルをタップすると90度回る",
+    "電源⚡から線がつながったタイルが光る",
+    "電球をぜんぶ光らせたらクリア。残り時間がふえて次の盤へ",
+    "盤はだんだん大きくなる。早く解くとスピードボーナス",
+    "時間切れで終了。合計点を競う"
+  ],
+  "theme": { "bg": "#0a1a30", "accent": "#ffe14d", "accent2": "#3fe0ff", "text": "#fff", "font": "Train One" },
+  "score": { "label": "スコア", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}
