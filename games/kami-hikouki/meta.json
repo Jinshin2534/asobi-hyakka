@@ -1,0 +1,16 @@
+{
+  "no": 44,
+  "slug": "kami-hikouki",
+  "title": "紙ひこうき",
+  "tagline": "引いて放って、上昇気流に乗せて。どこまで飛ぶ？",
+  "genre": "アクション",
+  "icon": "✈️",
+  "howto": [
+    "画面を押して後ろへ引っぱり、離すと投げる（引く向きで角度、長さで強さ）",
+    "飛んでいる間は押したまま上下にドラッグで機首を少し上げ下げ",
+    "オレンジの柱は上昇気流、青い柱は下降気流。気流の配置は3投とも同じ",
+    "3回投げた合計の飛距離を競う"
+  ],
+  "theme": { "bg": "#3f8fd2", "accent": "#ffffff", "accent2": "#ff8a3d", "text": "#fff", "font": "Yusei Magic" },
+  "score": { "label": "合計飛距離", "prefix": "", "unit": "m", "decimals": 1, "higherIsBetter": true }
+}
