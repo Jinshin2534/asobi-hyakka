@@ -1,0 +1,16 @@
+{
+  "no": 51,
+  "slug": "nami-nori",
+  "title": "波乗りビート",
+  "tagline": "波のてっぺんでタップ。ノリ続けるほど海が速くなる。",
+  "genre": "リズム",
+  "icon": "🏄",
+  "howto": [
+    "波の頂上がサーファーの足もとに来た瞬間にタップ（どこでもOK・Spaceキーも可）",
+    "ピッタリだと加速して大ジャンプ。8回続けてノるとギアが上がり、波も曲も速くなる",
+    "谷でタップするとワイプアウトしてギアが下がる。2回続けて見送ってもギアダウン",
+    "60秒で進んだ距離を競う"
+  ],
+  "theme": { "bg": "#062a4a", "accent": "#3fe4ff", "accent2": "#ff8a3d", "text": "#fff", "font": "Reggae One" },
+  "score": { "label": "進んだ距離", "prefix": "", "unit": "m", "decimals": 0, "higherIsBetter": true }
+}

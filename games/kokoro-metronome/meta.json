@@ -1,0 +1,16 @@
+{
+  "no": 49,
+  "slug": "kokoro-metronome",
+  "title": "心のメトロノーム",
+  "tagline": "音が消えても、心で刻め。ズレは最後にバレる。",
+  "genre": "リズム",
+  "icon": "💗",
+  "howto": [
+    "メトロノームに合わせてタップ（どこでもOK・Spaceキーも可）",
+    "途中でメトロノームが消える。そのまま同じテンポで叩き続ける",
+    "最後に答え合わせ。本物の拍とのズレ(ms)の平均で採点。小さいほど上手",
+    "全3回。ゆっくり・はやい・コオロギの邪魔あり"
+  ],
+  "theme": { "bg": "#14112b", "accent": "#7ef0d0", "accent2": "#ff5c8a", "text": "#fff", "font": "Train One" },
+  "score": { "label": "平均のズレ", "prefix": "±", "unit": "ms", "decimals": 0, "higherIsBetter": false }
+}
