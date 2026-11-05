@@ -1,0 +1,30 @@
+:root { --ink: #fff6e0; --paper: #120d1c; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: radial-gradient(ellipse at 50% -10%, #4a1240, transparent 60%), var(--paper);
+  color: var(--ink); font-family: 'M PLUS Rounded 1c', system-ui, sans-serif; min-height: 100vh;
+}
+.h-top { padding: 48px 16px 20px; text-align: center; }
+.h-logo {
+  font-family: 'Dela Gothic One', sans-serif; font-weight: 400; font-size: clamp(48px, 12vw, 96px); color: #ffd23f;
+  -webkit-text-stroke: 2px #7a1236; text-shadow: 0 5px 0 #7a1236, 0 10px 0 rgba(0,0,0,.4), 0 0 50px rgba(255,210,63,.4);
+}
+.h-sub { margin-top: 14px; opacity: .85; }
+.h-filters { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 22px; }
+.h-chip { border: 1px solid rgba(255,210,63,.4); background: rgba(0,0,0,.3); color: var(--ink); border-radius: 999px; padding: 6px 14px; font: inherit; cursor: pointer; }
+.h-chip.on { background: #ffd23f; color: #2a0b1e; font-weight: 800; }
+.h-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; padding: 12px 16px 40px; max-width: 1200px; margin: 0 auto; }
+.h-card {
+  position: relative; display: flex; flex-direction: column; gap: 6px; min-height: 170px; padding: 16px; border-radius: 18px;
+  text-decoration: none; color: #fff; overflow: hidden;
+  background: radial-gradient(ellipse at 70% 0%, color-mix(in srgb, var(--a2) 55%, transparent), transparent 70%), var(--bg);
+  border: 1px solid color-mix(in srgb, var(--a) 35%, transparent);
+  transition: transform .15s, box-shadow .15s;
+}
+.h-card:hover { transform: translateY(-4px) rotate(-.4deg); box-shadow: 0 12px 30px color-mix(in srgb, var(--a2) 35%, transparent); }
+.h-no { font-family: 'Dela Gothic One', sans-serif; font-size: 12px; letter-spacing: .2em; color: var(--a); opacity: .8; }
+.h-genre { position: absolute; top: 14px; right: 14px; font-size: 11px; padding: 2px 8px; border-radius: 999px; background: rgba(0,0,0,.4); }
+.h-title { font-family: var(--f), 'Dela Gothic One', sans-serif; font-size: 30px; line-height: 1.15; color: var(--a); text-shadow: 0 3px 0 rgba(0,0,0,.5); margin-top: 6px; }
+.h-tag { font-size: 13px; opacity: .85; line-height: 1.5; }
+.h-best { margin-top: auto; font-family: 'Dela Gothic One', sans-serif; font-size: 13px; color: var(--a); }
+.h-foot { text-align: center; opacity: .5; font-size: 12px; padding: 0 0 30px; }

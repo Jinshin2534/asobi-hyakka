@@ -1,0 +1,16 @@
+{
+  "no": 1,
+  "slug": "panpan-fusen",
+  "title": "パンパン風船",
+  "tagline": "ふくらむほど賞金アップ。でも、割れたらゼロ。",
+  "genre": "度胸",
+  "icon": "🎈",
+  "howto": [
+    "画面を押しているあいだ風船がふくらみ、賞金が増えていく",
+    "指を離すと、その風船の賞金を獲得",
+    "割れたらその風船の賞金はゼロ。割れる大きさは毎回ちがう",
+    "風船は全部で10個。合計賞金を競う"
+  ],
+  "theme": { "bg": "#1b0b2e", "accent": "#ffd23f", "accent2": "#ff3e7f", "text": "#fff", "font": "Dela Gothic One" },
+  "score": { "label": "合計賞金", "prefix": "¥", "unit": "", "higherIsBetter": true }
+}
