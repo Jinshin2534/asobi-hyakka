@@ -1,0 +1,16 @@
+{
+  "no": 53,
+  "slug": "shishimai",
+  "title": "獅子舞ステップ",
+  "tagline": "矢印にあわせてシュッ！獅子がカチッと噛む。",
+  "genre": "リズム",
+  "icon": "🦁",
+  "howto": [
+    "上から矢印が落ちてくる。下の枠に重なった瞬間、画面のどこでもその向きにスワイプ(矢印キー/WASDでもOK)",
+    "ぴったりでPERFECT、少しずれてGOOD、逃すか向きを間違えるとMISS",
+    "指を離さずジグザグに動かせば←→←→も続けて入る。同じ向きを続けるときは指を離してもう一度",
+    "金色の花🌺は得点3倍。コンボが続くほど点が伸び、テンポもだんだん上がる"
+  ],
+  "theme": { "bg": "#5c0a12", "accent": "#7dff9a", "accent2": "#e62b2b", "text": "#fff", "font": "Stick" },
+  "score": { "label": "スコア", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}

@@ -1,0 +1,16 @@
+{
+  "no": 52,
+  "slug": "ainote",
+  "title": "合いの手",
+  "tagline": "歌のすき間に「はい！」。かぶせたら台なし。",
+  "genre": "リズム",
+  "icon": "🏮",
+  "howto": [
+    "歌詞が右から流れてくる。提灯🏮の印が左の輪に重なった瞬間にタップ(スペースキーでもOK)",
+    "ぴったりでPERFECT、少しずれてGOOD。印のない所で叩くと空振り、歌詞にかぶせると減点",
+    "連続で決めるほどコンボ点が増える。4小節ごとにテンポアップ、後半は裏拍や連続の合いの手も",
+    "全20小節、最後まで歌い切った合計点を競う"
+  ],
+  "theme": { "bg": "#4b0f4f", "accent": "#ffcf4a", "accent2": "#ff5a36", "text": "#fff", "font": "Rampart One" },
+  "score": { "label": "合計点", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}
