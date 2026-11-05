@@ -1,0 +1,16 @@
+{
+  "no": 71,
+  "slug": "meboryou",
+  "title": "目分量",
+  "tagline": "定規なし。あなたの目は、何°ずれている？",
+  "genre": "頭脳",
+  "icon": "📐",
+  "howto": [
+    "角度・長さ・個数・面積を、目分量だけで答える。全10問",
+    "ドラッグで線や図形を動かして、「決定」で答え合わせ",
+    "正解と重ねて、ずれが数字と図ですぐわかる",
+    "誤差が小さいほど高得点。後半ほど難しく、配点も上がる(ラストは2倍)"
+  ],
+  "theme": { "bg": "#13294b", "accent": "#ffe14d", "accent2": "#ff6b6b", "text": "#fff", "font": "DotGothic16" },
+  "score": { "label": "得点", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}

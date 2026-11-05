@@ -1,0 +1,17 @@
+{
+  "no": 69,
+  "slug": "gyoza-tsutsumi",
+  "title": "餃子包み",
+  "tagline": "ヒダは、そろってこそ美しい。60秒で何個包める？",
+  "genre": "職人",
+  "icon": "🥟",
+  "howto": [
+    "皮のふちを左から順に、スワイプでヒダを寄せていく",
+    "スワイプした長さ = ヒダの幅。指を離すと決まる",
+    "ヒダの幅がそろっているほど、数が8〜10個に近いほど高得点",
+    "最後のヒダははみ出すと切られるので、残りを見て調整",
+    "包んだ餃子はフライパンで焼けていく。60秒の合計点"
+  ],
+  "theme": { "bg": "#5a0f14", "accent": "#ffe08a", "accent2": "#2fa36b", "text": "#fff", "font": "Dela Gothic One" },
+  "score": { "label": "合計点", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}

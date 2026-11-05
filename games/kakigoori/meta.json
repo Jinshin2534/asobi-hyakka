@@ -1,0 +1,16 @@
+{
+  "no": 67,
+  "slug": "kakigoori",
+  "title": "かき氷タワー",
+  "tagline": "ふわふわの氷を、どこまで高く積めるか。偏ったら、崩れる。",
+  "genre": "職人",
+  "icon": "🍧",
+  "howto": [
+    "左右にゆれる氷かきの下に山のてっぺんが来たらタップ。ひと盛り落ちる",
+    "ずれた分はこぼれて、山が細くなる。細い山は伸びにくい",
+    "ピッタリ重ねると連続ボーナス。山も太くなる",
+    "片側に偏りすぎると崩れる。40秒後にシロップで仕上げ。高さ(cm)を競う"
+  ],
+  "theme": { "bg": "#0d4f7a", "accent": "#ff5c8a", "accent2": "#2fb7e8", "text": "#fff", "font": "Rampart One" },
+  "score": { "label": "高さ", "prefix": "", "unit": "cm", "decimals": 1, "higherIsBetter": true }
+}
