@@ -165,7 +165,7 @@ createGame({
     });
 
     newStage();
-    window.__game = { get P() { return P; }, get grid() { return grid; }, get score() { return score; }, choose: (c) => choose(c) };
+    (import.meta.env.DEV ? window : {}).__game = { get P() { return P; }, get grid() { return grid; }, get score() { return score; }, choose: (c) => choose(c) };
     ctx.loop((dt) => {
       t += dt;
       draw();

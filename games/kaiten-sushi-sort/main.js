@@ -216,7 +216,7 @@ createGame({
       if (i != null && !e.repeat) send(i);
     });
 
-    window.__dbg = { get lane() { return lane; }, get cols() { return cols; }, get score() { return score; }, get lives() { return lives; }, front: () => front(), send };
+    (import.meta.env.DEV ? window : {}).__dbg = { get lane() { return lane; }, get cols() { return cols; }, get score() { return score; }, get lives() { return lives; }, front: () => front(), send };
 
     ctx.loop((dt) => {
       t += dt;

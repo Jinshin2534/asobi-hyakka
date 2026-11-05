@@ -578,6 +578,6 @@ createGame({
       }
     }
     const w0 = () => W();
-    window.__mochi = { notes, get score() { return score; }, get lives() { return lives; } };
+    (import.meta.env.DEV ? window : {}).__mochi = { notes, get score() { return score; }, get lives() { return lives; } };
   },
 });

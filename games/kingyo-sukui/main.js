@@ -176,7 +176,7 @@ createGame({
     ctx.on(window, 'keyup', (e) => e.code === 'Space' && lift());
 
     // 検証用(ヘッドレスで盤面を覗く)
-    window.__kingyo = { get fish() { return fish; }, poi, poiR };
+    (import.meta.env.DEV ? window : {}).__kingyo = { get fish() { return fish; }, poi, poiR };
 
     ctx.loop((dt) => {
       t += dt;

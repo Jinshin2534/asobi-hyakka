@@ -28,3 +28,6 @@ body {
 .h-tag { font-size: 13px; opacity: .85; line-height: 1.5; }
 .h-best { margin-top: auto; font-family: 'Dela Gothic One', sans-serif; font-size: 13px; color: var(--a); }
 .h-foot { text-align: center; opacity: .5; font-size: 12px; padding: 0 0 30px; }
+.h-icon { position: absolute; right: 10px; bottom: 6px; font-size: 44px; opacity: .9; filter: drop-shadow(0 4px 8px rgba(0,0,0,.5)); transition: transform .2s; }
+.h-card:hover .h-icon { transform: scale(1.2) rotate(-8deg); }
+.h-tag { padding-right: 44px; }

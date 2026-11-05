@@ -85,7 +85,7 @@ createGame({
     let finished = false;
     let tPrev = 0;
 
-    window.__game = { song, t0, OFFSET, get score() { return score; }, get counts() { return counts; },
+    (import.meta.env.DEV ? window : {}).__game = { song, t0, OFFSET, get score() { return score; }, get counts() { return counts; },
       botPlan: () => hits.map((h) => ({ at: t0 + (h.t + OFFSET) * 1000, key: 'Space' })) };
     const hudScore = () => ctx.hud('score', `${score.toLocaleString()}点`);
     const hudCombo = () => ctx.hud('combo', `${combo} コンボ`);

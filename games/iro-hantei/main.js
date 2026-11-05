@@ -159,7 +159,7 @@ createGame({
       }
     });
     // 検証用(読み取り専用)
-    window.__dbg = () => ({ match: q ? q.match : null, correct, score, misses });
+    (import.meta.env.DEV ? window : {}).__dbg = () => ({ match: q ? q.match : null, correct, score, misses });
     ctx.on(window, 'keydown', (e) => {
       if (e.repeat) return;
       if (['ArrowLeft', 'KeyZ', 'KeyO'].includes(e.code)) answer(true);

@@ -166,7 +166,7 @@ createGame({
     };
 
     newLock();
-    window.__dbg = { get lock() { return lock; }, get score() { return score; }, get state() { return state; }, insert, flip };
+    (import.meta.env.DEV ? window : {}).__dbg = { get lock() { return lock; }, get score() { return score; }, get state() { return state; }, insert, flip };
 
     ctx.loop((dt) => {
       t += dt;

@@ -211,7 +211,7 @@ createGame({
     };
 
     newPuzzle();
-    window.__dbg = { get q() { return q; }, get state() { return state; }, layout, get score() { return score; }, get busy() { return busy; } };
+    (import.meta.env.DEV ? window : {}).__dbg = { get q() { return q; }, get state() { return state; }, layout, get score() { return score; }, get busy() { return busy; } };
 
     ctx.loop((dt) => {
       t += dt;

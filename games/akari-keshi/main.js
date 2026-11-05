@@ -161,7 +161,7 @@ createGame({
     });
 
     newBuilding();
-    window.__game = { get B() { return B; }, get score() { return score; }, get bNo() { return bNo; }, layout: () => layout() };
+    (import.meta.env.DEV ? window : {}).__game = { get B() { return B; }, get score() { return score; }, get bNo() { return bNo; }, layout: () => layout() };
     ctx.loop((dt) => {
       t += dt;
       slide *= Math.max(0, 1 - dt * 9);

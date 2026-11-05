@@ -167,7 +167,7 @@ createGame({
       }
     };
     // 検証用(読み取り専用)
-    window.__dbg = () => ({ st, stT, strikeDur, level, score, lives });
+    (import.meta.env.DEV ? window : {}).__dbg = () => ({ st, stT, strikeDur, level, score, lives });
     ctx.on(cv, 'pointerdown', pull);
     ctx.on(window, 'keydown', (e) => (e.code === 'Space' || e.code === 'Enter') && !e.repeat && pull(e));
 

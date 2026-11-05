@@ -456,6 +456,6 @@ createGame({
       }
     }
 
-    window.__metro = { rounds };
+    (import.meta.env.DEV ? window : {}).__metro = { rounds };
   },
 });

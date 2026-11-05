@@ -439,6 +439,6 @@ createGame({
       }
     }
 
-    window.__nami = { beats, get gear() { return gear; }, get dist() { return dist; } };
+    (import.meta.env.DEV ? window : {}).__nami = { beats, get gear() { return gear; }, get dist() { return dist; } };
   },
 });

@@ -80,7 +80,7 @@ createGame({
     hudPeople();
     hudRound(0);
 
-    window.__game = {
+    (import.meta.env.DEV ? window : {}).__game = {
       song, t0,
       get score() { return people; },
       get counts() { return counts; },

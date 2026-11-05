@@ -113,7 +113,7 @@ createGame({
     });
     ctx.on(window, 'keydown', (e) => (e.code === 'Space' || e.code === 'ArrowUp' || e.code === 'ArrowLeft' || e.code === 'ArrowRight') && !e.repeat && kick());
 
-    window.__kabe = () => ({ n, spikes, stars, lava, state });
+    (import.meta.env.DEV ? window : {}).__kabe = () => ({ n, spikes, stars, lava, state });
     const onSpike = (side, y) => spikes.some((s) => s.side === side && y + NR - 4 > s.y0 && y - NR + 4 < s.y1);
 
     ctx.loop((dt) => {

@@ -9,4 +9,4 @@
 ## 構成
 - `games/<slug>/` 1ゲーム1フォルダ（meta.json / index.html / main.js）。ハブは meta.json を自動で集める
 - `shared/kit.js` タイトル・遊び方・ランキング・リザルト・ポスト・演出・効果音の共通キット
-- `docs/games.md` 100本のリスト、`docs/BRIEF.md` 制作ブリーフ
+- `docs/games.md` 100本のリスト(全100本 実装済み)、`docs/BRIEF.md` 制作ブリーフ

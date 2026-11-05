@@ -117,7 +117,7 @@ createGame({
     hudScore();
     hudCombo();
 
-    window.__game = {
+    (import.meta.env.DEV ? window : {}).__game = {
       chart, t0,
       get score() { return score; },
       get counts() { return counts; },

@@ -428,6 +428,6 @@ createGame({
       }
     }
 
-    window.__kaeru = { seq, get state() { return state; }, seat, press };
+    (import.meta.env.DEV ? window : {}).__kaeru = { seq, get state() { return state; }, seat, press };
   },
 });

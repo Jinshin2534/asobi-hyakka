@@ -48,7 +48,7 @@ createGame({
       target = clamp(e.clientX - r.left, PW(), W() - PW());
     };
     // 検証用(読み取り専用)
-    window.__dbg = () => ({ px, t, lives, score, warns: warns.map((w) => ({ x: w.x, hw: w.hw, left: w.dur - (t - w.t0) })) });
+    (import.meta.env.DEV ? window : {}).__dbg = () => ({ px, t, lives, score, warns: warns.map((w) => ({ x: w.x, hw: w.hw, left: w.dur - (t - w.t0) })) });
     ctx.on(cv, 'pointerdown', (e) => {
       e.preventDefault();
       setTarget(e);

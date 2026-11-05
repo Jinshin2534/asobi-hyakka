@@ -40,7 +40,7 @@ createGame({
       ctx.hud('ppl', `${people.length}人 / 速さ${Math.round((START_PERIOD / period) * 100)}%`);
     };
     hud();
-    window.__oonawa = () => ({ theta, period, air: me.air, count, state });
+    (import.meta.env.DEV ? window : {}).__oonawa = () => ({ theta, period, air: me.air, count, state });
 
     const slotX = (slot, w) => {
       const span = Math.min(w * 0.78, 700);

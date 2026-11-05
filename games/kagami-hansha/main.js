@@ -142,7 +142,7 @@ createGame({
 
     newStage();
     // 検証用（ヘッドレスで正解手順を流す）
-    window.__dbg = { get p() { return p; }, get orient() { return orient; }, layout, get score() { return score; } };
+    (import.meta.env.DEV ? window : {}).__dbg = { get p() { return p; }, get orient() { return orient; }, layout, get score() { return score; } };
 
     ctx.loop((dt) => {
       t += dt;

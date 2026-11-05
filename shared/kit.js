@@ -4,6 +4,8 @@
 import './kit.css';
 import { createSfx } from './sfx.js';
 import { store } from './store.js';
+import { defaultFormat } from './format.js';
+export { defaultFormat };
 
 const SITE_URL = 'https://asobi-hyakka.vercel.app';
 const FONT_FAMILIES = {
@@ -38,12 +40,6 @@ const el = (tag, cls, html) => {
 };
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
-export function defaultFormat(score, meta) {
-  const s = meta.score || {};
-  const d = s.decimals ?? 0;
-  const n = Number(score).toLocaleString('ja-JP', { minimumFractionDigits: d, maximumFractionDigits: d });
-  return `${s.prefix ?? ''}${n}${s.unit ?? ''}`;
-}
 
 /**
  * @param {object} opts meta.json の中身 + start(ctx) (+ 任意で format(score))

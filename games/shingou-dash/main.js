@@ -132,7 +132,7 @@ createGame({
     ctx.on(cv, 'pointerdown', tap);
     ctx.on(window, 'keydown', (e) => !e.repeat && tap(e));
     // 検証用(読み取り専用)
-    window.__dbg = () => ({ phase, x, time, fouls });
+    (import.meta.env.DEV ? window : {}).__dbg = () => ({ phase, x, time, fouls });
 
     const groundY = () => H() * 0.72;
 

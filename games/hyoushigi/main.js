@@ -526,6 +526,6 @@ createGame({
               : 'まもなく夜回り';
       g.fillText(hint, w / 2, ty + th / 2 + 34);
     }
-    window.__hyoushigi = { rounds };
+    (import.meta.env.DEV ? window : {}).__hyoushigi = { rounds };
   },
 });

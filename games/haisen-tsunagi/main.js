@@ -119,7 +119,7 @@ createGame({
     ctx.on(cv, 'pointerdown', tap);
 
     newBoard();
-    window.__game = { get p() { return p; }, get score() { return score; }, get stageNo() { return stageNo; }, layout: () => layout() };
+    (import.meta.env.DEV ? window : {}).__game = { get p() { return p; }, get score() { return score; }, get stageNo() { return stageNo; }, layout: () => layout() };
     ctx.loop((dt) => {
       t += dt;
       flow += dt;

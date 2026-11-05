@@ -1,6 +1,6 @@
 import './hub.css';
 import { store } from './shared/store.js';
-import { defaultFormat } from './shared/kit.js';
+import { defaultFormat } from './shared/format.js';
 
 const metas = Object.values(import.meta.glob('./games/*/meta.json', { eager: true, import: 'default' })).sort((a, b) => a.no - b.no);
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -25,6 +25,7 @@ function render() {
         <span class="h-genre">${esc(m.genre)}</span>
         <span class="h-title">${esc(m.title)}</span>
         <span class="h-tag">${esc(m.tagline)}</span>
+        ${m.icon ? `<span class="h-icon">${esc(m.icon)}</span>` : ''}
         ${best != null ? `<span class="h-best">BEST ${esc(defaultFormat(best, m))}</span>` : ''}
       </a>`;
     })

@@ -275,7 +275,7 @@ createGame({
     });
 
     loadRoom();
-    window.__game = { get L() { return L; }, get st() { return st; }, get score() { return score; }, get roomNo() { return roomNo; } };
+    (import.meta.env.DEV ? window : {}).__game = { get L() { return L; }, get st() { return st; }, get score() { return score; }, get roomNo() { return roomNo; } };
     ctx.loop((dt) => {
       t += dt;
       if (!busy && !over) {

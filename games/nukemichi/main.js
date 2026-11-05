@@ -193,7 +193,7 @@ createGame({
     };
 
     newPuzzle();
-    window.__dbg = { get cars() { return cars; }, get q() { return q; }, layout, get score() { return score; }, get busy() { return busy; } };
+    (import.meta.env.DEV ? window : {}).__dbg = { get cars() { return cars; }, get q() { return q; }, layout, get score() { return score; }, get busy() { return busy; } };
 
     ctx.loop((dt) => {
       t += dt;

@@ -148,7 +148,7 @@ createGame({
       }
     }
 
-    window.__game = { get grid() { return grid; }, cols, rows, get score() { return score; }, layout: () => layout() };
+    (import.meta.env.DEV ? window : {}).__game = { get grid() { return grid; }, cols, rows, get score() { return score; }, layout: () => layout() };
     ctx.loop((dt) => {
       t += dt;
       idle += dt;
