@@ -1,0 +1,16 @@
+{
+  "no": 66,
+  "slug": "onigiri-nigiri",
+  "title": "おにぎり職人",
+  "tagline": "ギュッ、ギュッ、ギュッ。回るごはんを三角に握れ。",
+  "genre": "職人",
+  "icon": "🍙",
+  "howto": [
+    "押しているあいだ上の手がごはんを押す。離すとまた回りはじめる",
+    "点線の三角の辺が上に来たときに押すと、きれいな三角になる",
+    "1回で押しすぎると潰れる(手が赤くなったら離す)",
+    "ゲージがたまると1個完成。三角の正確さで採点。45秒で何個にぎれるか"
+  ],
+  "theme": { "bg": "#0f2a2a", "accent": "#7ee0b8", "accent2": "#ff6b6b", "text": "#fff", "font": "Hachi Maru Pop" },
+  "score": { "label": "合計点", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}

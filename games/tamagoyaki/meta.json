@@ -1,0 +1,16 @@
+{
+  "no": 64,
+  "slug": "tamagoyaki",
+  "title": "卵焼き",
+  "tagline": "流して、焼いて、ふわとろの瞬間に巻く。",
+  "genre": "職人",
+  "icon": "🍳",
+  "howto": [
+    "押しているあいだ卵液が流れる。うすく流すのがコツ(メーターの緑)",
+    "指を離すと焼けはじめる。色とつやを見て、ふわとろの瞬間にタップで巻く",
+    "早すぎると生焼け、遅すぎると焦げて減点",
+    "卵液がなくなるまで層を重ねる。層が多くきれいなほど高得点。火はだんだん強くなる"
+  ],
+  "theme": { "bg": "#1d2433", "accent": "#ffd23a", "accent2": "#ff8a3d", "text": "#fffaf0", "font": "RocknRoll One" },
+  "score": { "label": "できばえ", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}
