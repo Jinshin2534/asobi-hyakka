@@ -1,0 +1,16 @@
+{
+  "no": 34,
+  "slug": "oonawa",
+  "title": "大縄とび",
+  "tagline": "仲間が増えるほど、縄は速くなる。みんなで何回跳べる？",
+  "genre": "アクション",
+  "icon": "🪢",
+  "howto": [
+    "画面をタップ(スペースキー)でジャンプ",
+    "縄が足元に来たとき空中にいればセーフ",
+    "5回跳ぶごとに仲間が入ってきて、縄が速くなる",
+    "ひっかかれるのは3回まで。跳んだ回数を競う"
+  ],
+  "theme": { "bg": "#20402a", "accent": "#ffd84d", "accent2": "#ff6b3d", "text": "#fff", "font": "Mochiy Pop One" },
+  "score": { "label": "跳んだ回数", "prefix": "", "unit": "回", "decimals": 0, "higherIsBetter": true }
+}

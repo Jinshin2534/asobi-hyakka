@@ -1,0 +1,16 @@
+{
+  "no": 32,
+  "slug": "ittou-ryoudan",
+  "title": "一刀両断",
+  "tagline": "ひと振りで、ぴったり半分。目分量の達人になれ。",
+  "genre": "パズル",
+  "icon": "🗡️",
+  "howto": [
+    "画面をなぞると、その線で図形をスパッと切る",
+    "左右(上下)の面積がぴったり半分に近いほど高得点",
+    "1問1回きり。制限時間は8秒",
+    "全5問。後半は形がいびつになり、回りだす。配点も上がる"
+  ],
+  "theme": { "bg": "#0f3b33", "accent": "#f4ecd2", "accent2": "#d7263d", "text": "#fff", "font": "Kaisei Decol" },
+  "score": { "label": "合計", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}
