@@ -1,0 +1,16 @@
+{
+  "no": 22,
+  "slug": "kagami-hansha",
+  "title": "光の反射",
+  "tagline": "鏡をくるっと回して、光をぜんぶの宝石に通せ。",
+  "genre": "パズル",
+  "icon": "🔦",
+  "howto": [
+    "鏡をタップすると向きが ／ と ＼ で切りかわる",
+    "ライトの光がすべての宝石を通ればステージクリア",
+    "少ない回数で解くほど★が増えて高得点。最少回数なら★3",
+    "制限90秒でステージを連続クリア。進むほど盤が広く、鏡が増える"
+  ],
+  "theme": { "bg": "#071a2b", "accent": "#7ff6ff", "accent2": "#e8662e", "text": "#eafcff", "font": "Train One" },
+  "score": { "label": "スコア", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}

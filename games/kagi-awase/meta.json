@@ -1,0 +1,16 @@
+{
+  "no": 24,
+  "slug": "kagi-awase",
+  "title": "鍵あわせ",
+  "tagline": "回る鍵のでっぱりが、溝にそろった一瞬を突け。",
+  "genre": "パズル",
+  "icon": "🔑",
+  "howto": [
+    "まわる鍵のでっぱりが、錠前の溝にぴったり重なった瞬間にタップで差す",
+    "ズレていると弾かれて −3秒。ぴったりだと PERFECT で高得点＆時間+0.5秒",
+    "いつまでも合わない鍵は裏返し。「うら返す」で向きを直そう",
+    "制限45秒で何本開けられるか。進むほど速く、許されるズレが小さくなる"
+  ],
+  "theme": { "bg": "#1d1830", "accent": "#ffc94a", "accent2": "#b5532a", "text": "#fff6e0", "font": "Kaisei Decol" },
+  "score": { "label": "スコア", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}

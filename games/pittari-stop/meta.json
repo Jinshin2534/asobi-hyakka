@@ -1,0 +1,16 @@
+{
+  "no": 19,
+  "slug": "pittari-stop",
+  "title": "ぴったり10秒",
+  "tagline": "数字が消えても、10.00秒で止められる？",
+  "genre": "反射",
+  "icon": "⏱️",
+  "howto": [
+    "タップ(またはスペース)で計測スタート、もう一度タップでストップ",
+    "10.00秒ちょうどを狙う。途中から数字と針が消える",
+    "ラウンドが進むほど、消えるのが早くなる",
+    "5回の誤差の合計が小さいほど上位"
+  ],
+  "theme": { "bg": "#062a2e", "accent": "#5cf2d6", "accent2": "#ff4f8b", "text": "#fff", "font": "DotGothic16" },
+  "score": { "label": "誤差の合計", "prefix": "", "unit": "秒", "decimals": 2, "higherIsBetter": false }
+}

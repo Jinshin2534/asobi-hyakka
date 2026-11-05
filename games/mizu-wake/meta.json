@@ -1,0 +1,16 @@
+{
+  "no": 25,
+  "slug": "mizu-wake",
+  "title": "水わけ",
+  "tagline": "目盛りのない3つの容器で、ぴったりの量をつくれ。",
+  "genre": "パズル",
+  "icon": "🫗",
+  "howto": [
+    "注ぐ容器をタップ → 注がれる容器をタップ（ドラッグでもOK）",
+    "注ぐと「あふれる直前」か「空になる」まで一気に移る",
+    "どれかの容器がお題の量ぴったりになればクリア",
+    "最短手数で解くと★3で高得点。制限90秒で何問解けるか。問題は毎回自動生成（必ず解ける）"
+  ],
+  "theme": { "bg": "#0c2f3a", "accent": "#5fe3ff", "accent2": "#1f8fd6", "text": "#f0fbff", "font": "Yusei Magic" },
+  "score": { "label": "スコア", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}
