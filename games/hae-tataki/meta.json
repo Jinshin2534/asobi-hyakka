@@ -1,0 +1,16 @@
+{
+  "no": 12,
+  "slug": "hae-tataki",
+  "title": "ハエたたき道場",
+  "tagline": "ハエだけ叩け。ハチは叩くな。30秒の連打修行。",
+  "genre": "反射",
+  "icon": "🪰",
+  "howto": [
+    "飛び回るハエをタップして叩く",
+    "続けて当てるとコンボ倍率が上がる(最大×8)",
+    "ハチを叩くと減点＆コンボが切れる。空振りもコンボが切れる",
+    "金のハエは高得点。後半ほどハエが速く、数も増える。制限30秒"
+  ],
+  "theme": { "bg": "#2a3b14", "accent": "#d7ff3a", "accent2": "#ff8a1f", "text": "#fff", "font": "Potta One" },
+  "score": { "label": "スコア", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}

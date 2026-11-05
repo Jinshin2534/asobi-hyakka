@@ -276,7 +276,7 @@ export function createGame(opts) {
       loop(fn) {
         let last = performance.now();
         const tick = (now) => {
-          if (!s.alive || s.ended) return;
+          if (!s.alive) return; // end後もリザルト表示までは描画を続ける(最後の演出のため)
           const dt = Math.max(0, Math.min(0.05, (now - last) / 1000));
           last = now;
           fn(dt, now);
