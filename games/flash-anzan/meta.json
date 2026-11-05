@@ -1,0 +1,16 @@
+{
+  "no": 72,
+  "slug": "flash-anzan",
+  "title": "フラッシュ暗算",
+  "tagline": "一瞬だけ光る数字を、ぜんぶ足せ。",
+  "genre": "頭脳",
+  "icon": "🧮",
+  "howto": [
+    "数字が1つずつ一瞬だけ表示される。頭の中で全部足す",
+    "最後に出る4つの答えから正解をタップ（キーボードは1〜4）",
+    "正解するほど桁が増え、表示が速くなる。赤い数字は引き算",
+    "早く答えるほど高得点。3回まちがえるか12問で終了"
+  ],
+  "theme": { "bg": "#04121f", "accent": "#39ff88", "accent2": "#00b3ff", "text": "#fff", "font": "DotGothic16" },
+  "score": { "label": "スコア", "prefix": "", "unit": "点", "decimals": 0, "higherIsBetter": true }
+}
